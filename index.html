@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="quiz_home_box custom_box show">
+		<h4>You;ll have 15 seconds to answer each question</h4>
+		<!-- <button type="button" class="start_quiz_btn btn"></button> -->
+		<h1>Select Category</h1>
+		<div class="category_box">
+			
+		</div>
+	</div>
+
+	<div class="quiz_box custom_box">
+		<h1 class="category_text" style="text-align: center;color: #b6b6b6;font-size: 20px;font-weight: 500;"></h1>
+		<div class="stats">
+			<div class="quiz_time">
+				<div class="remaining_time" style="font-weight: 900;"></div>
+				<div class="time_up">Time's Up</div>
+			</div>
+			<div class="score_board">
+				<span class="score_text">Score:</span>
+				<span class="score_num"></span>
+			</div>
+		</div>
+		<div class="question_box">
+			<div class="current_question_num">
+				
+			</div>
+			<div class="question_text">
+				
+			</div>
+		</div>
+		<div class="option_box">
+			<!-- <div class="option">True</div>
+			<div class="option">False</div> -->
+		</div>	
+		<div class="answer_desc">
+			They really don't
+		</div>
+		<div class="next_question">
+			<button type="button" class="next_question_btn btn">Next Question</button>
+			<button type="button" class="see_result_btn btn">See Result</button>
+		</div>
+	</div>
+
+	<div class="final_results custom_box">
+		<h1>Quiz Result</h1>
+		<h4>Total Questions : <span class="total_question"> </span></h4>
+		<h4>Attempt : <span class="total_attempt"></span></h4>
+		<h4>Correct : <span class="total_correct"></span></h4>
+		<h4>Wrong: <span class="total_wrong"></span></h4>
+		<h4>Percentage : <span class="per"> </span></h4>
+		<button type="button" class="start_again_btn btn">Start Again</button>
+		<button type="button" class="go_home_btn btn">Go To Home</button>
+	</div>
+	<script src="main.js"></script>
+	
+</body>
+</html>
